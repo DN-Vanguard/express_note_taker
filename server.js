@@ -86,7 +86,14 @@ app.delete('/api/notes/:id', (req, res) => {
     };
 });
 
+// wildcard path
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+});
+
 // Listening port
 app.listen(PORT, () =>
   console.log( `Server open at http://localhost:${PORT}` )
 );
+
+

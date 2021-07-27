@@ -1,4 +1,4 @@
-// fsUtils handles the functionality of the fs module and exports functions for use in other files
+// fs handles the functionality of the fs module and exports functions for use in other files
 
 // Required modules
 const fs = require( 'fs' );

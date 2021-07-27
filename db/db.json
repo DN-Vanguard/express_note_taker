@@ -2,5 +2,13 @@
     {
         "title":"Test Title",
         "text":"Test text"
+    },
+    {
+        "title": "TODO: Heroku",
+        "text": "Deploy this to herokuapp\n"
+    },
+    {
+        "title": "New Note Title Test",
+        "text": "New Note text test"
     }
 ]
